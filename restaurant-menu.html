@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Meat Masters</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <!-- Replaced local path with a placeholder image URL -->
+            <img src="meat-images/Gemini_Generated_Image_xfdop6xfdop6xfdo.png" alt="logo">
+        </div>
+        <h1>WELCOME to MEAT MASTERS!</h1>
+
+        <i><strong>More MEAT, More MEMORIES!!!!</strong></i>
+
+        <div class="working">
+            <h3>Working Days</h3><br>
+            <p><b>Mon-Sun:</b> 08:00am-21:30pm</p>
+        </div>
+    </header>
+
+    <nav class="menu-filter">
+        <button class="filter-btn active" onclick="filterMenu('all')">Full Menu</button>
+        <button class="filter-btn" onclick="filterMenu('beef-sect')">Beef</button>
+        <button class="filter-btn" onclick="filterMenu('chicken-sect')">Chicken</button>
+        <button class="filter-btn" onclick="filterMenu('pork-sect')">Pork</button>
+        <button class="filter-btn" onclick="filterMenu('lamb-sect')">Lamb</button>
+    </nav>
+
+    <section id="Menu">
+        <h2>MENU</h2>
+        <p><b>Notice:</b> All Meals Can Be Prepared According To Customers' Preferences.</p>
+        <ul>
+            <li>Customizing Meals</li>
+            <li>Choosing Portion Size</li>
+            <li>Spice Levels</li>
+            <li>Chicken Pieces To Suit Your Cravings</li>
+            <li>And Many More</li>
+        </ul>
+        <P>Prices Will Be <b>Adjusted</b> According To The Meals Served.</P>
+    </section>
+
+    <!-- BEEF SECTION -->
+    <section class="pricing filter-item" id="beef-sect">
+        <h3>BEEF</h3>
+        <div class="card-container">
+            <div class="card">
+                <h4>Grilled Beef Steak</h4>
+                <p class="price">R120</p>
+                <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=400&auto=format&fit=crop" alt="grilled steak">
+            </div>
+            <div class="card">
+                <h4>Beef Ribs</h4>
+                <p class="price">R150</p>
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=400&auto=format&fit=crop" alt="ribs">
+            </div>
+            <div class="card">
+                <h4>Beef Burger</h4>
+                <p class="price">R40</p>
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=400&auto=format&fit=crop" alt="burger">
+            </div>
+            <div class="card">
+                <h4>Beef Stew</h4>
+                <p class="price">R25</p>
+                <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=400&auto=format&fit=crop" alt="stew">
+            </div>
+            <div class="card">
+                <h4>Beef Sausage/Boerewors</h4>
+                <p class="price">R10 (A piece)</p>
+                <img src="https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Boerewors">
+</div>
+        </div>
+    </section>
+
+    <!-- CHICKEN SECTION -->
+    <section class="pricing filter-item" id="chicken-sect">
+        <h3>CHICKEN</h3>
+        <div class="card-container">
+            <div class="card">
+                <h4>Grilled Chicken</h4>
+                <p class="price">R150</p>
+                <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?q=80&w=400&auto=format&fit=crop" alt="full chicken">
+            </div>
+            <div class="card">
+                <h4>Fried Chicken (2, 4, 6, 8, 10 pieces)</h4>
+                <p class="price">R15 (per two pieces)</p>
+                <img src="meat-images/gabe-pierce-qcLlJvBK3eI-unsplash.jpg" alt="fried chicken">
+</div>
+            <div class="card">
+                <h4>BBQ Chicken</h4>
+                <p class="price">R100</p>
+                <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=400&auto=format&fit=crop" alt="bbq chicken">
+            </div>
+            <div class="card">
+                <h4>Chicken Wings</h4>
+                <p class="price">R15 (per two pieces)</p>
+                <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?q=80&w=400&auto=format&fit=crop" alt="wings">
+            </div>
+            <div class="card">
+                <h4>Chicken Burger</h4>
+                <p class="price">R45</p>
+                <img src="meat-images/katrine-lucas-jcJAlUd9-9c-unsplash.jpg" alt="chicken burger">
+            </div>
+        </div>
+    </section>
+
+    <!-- PORK SECTION -->
+    <section class="prices filter-item" id="pork-sect">
+        <h3>PORK</h3>
+        <div class="card-container">
+            <div class="card">
+                <h4>Pork Chops</h4>
+                <p class="price">R50</p>
+                <img src="meat-images/junior-reis-G3giNPjjB18-unsplash.jpg" alt="pork chops">
+            </div>
+            <div class="card">
+                <h4>Pork Ribs</h4>
+                <p class="price">R100</p>
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=400&auto=format&fit=crop" alt="pork ribs">
+            </div>
+            <div class="card">
+                <h4>Crispy Pork Belly</h4>
+                <p class="price">R60</p>
+                <img src="https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?q=80&w=400&auto=format&fit=crop" alt="pork belly">
+            </div>
+            <div class="card">
+                <h4>Pulled Pork</h4>
+                <p class="price">R80</p>
+                <img src="meat-images/jez-timms-8X3oqzxQQa4-unsplash.jpg" alt="pulled pork">
+            </div>
+        </div>
+    </section>
+
+    <!-- LAMB SECTION -->
+    <section class="prices filter-item" id="lamb-sect">
+        <h3>LAMB</h3>
+        <div class="card-container">
+            <div class="card">
+                <h4>Lamb Chops</h4>
+                <p class="price">R50</p>
+                <img src="https://images.unsplash.com/photo-1603048297172-c92544798d5a?q=80&w=400&auto=format&fit=crop" alt="lamb chops">
+            </div>
+            <div class="card">
+                <h4>Grilled Lamb Ribs</h4>
+                <p class="price">R80</p>
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=400&auto=format&fit=crop" alt="lamb ribs">
+            </div>
+            <div class="card">
+                <h4>Lamb Stew</h4>
+                <p class="price">R40</p>
+                <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400&auto=format&fit=crop" alt="lamb stew">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Contact Us:</h3>
+        <p><strong>Tel:</strong>+27 00 000 0000</p>
+        <p><strong>WhatsApp to Order:</strong>+27 00 000 0000</p>
+        <h3>Visit Us:</h3>
+        <Address>
+            456 Oakwood Drive <br>
+            Johannesburg, Gauteng <br>
+            Suburbia, 2194
+        </Address>
+    </footer>
+    <hr>
+    &copy; Meat Masters
+
+    <script>
+        function filterMenu(category) {
+            const items = document.querySelectorAll('.filter-item');
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+
+            items.forEach(item => {
+                if (category === 'all') {
+                    item.style.display = 'block';
+                } else {
+                    if (item.id === category) {
+                        item.style.display = 'block';
+                        item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
